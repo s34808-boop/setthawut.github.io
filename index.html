@@ -1,34 +1,84 @@
-<!-- นี่คือโครงสร้างหน้าเว็บทั้งหมด  -->
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
-<meta charset="UTF-8">
-<title>หน้าแนะนำตัวของฉัน</title>
-<style>
-body {
-background-color: #60a5fa;
-color: #ffffff
-text-align: center; padding: 50px;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าแนะนำตัวของฉัน</title>
 
-}
-.card {
-background: white; border-radius: 50px;
-box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-max-width: 500px; margin: 0 auto; padding: 30px;
+    <style>
 
-}
-h1 { color: #2c3e50; }
-p { font-size: 18px; line-height: 1.6; }
-</style>
+        body{
+            background-color:#2196f3;
+            color:#333;
+            text-align:center;
+            padding:50px;
+            font-family:Tahoma,sans-serif;
+        }
+
+        .card{
+            background:white;
+            border-radius:15px;
+            box-shadow:0 4px 8px rgba(0,0,0,0.1);
+            max-width:700px;
+            margin:0 auto;
+            padding:40px;
+        }
+
+        h1{
+            color:#2c3e50;
+            margin-bottom:20px;
+        }
+
+        p{
+            font-size:18px;
+            line-height:1.8;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:25px;
+            padding:15px 30px;
+            background:#2196f3;
+            color:white;
+            text-decoration:none;
+            border-radius:10px;
+            font-size:18px;
+            font-weight:bold;
+        }
+
+        .btn:hover{
+            background:#1976d2;
+        }
+
+    </style>
 </head>
+ 
 <body>
-<div class="card">
-<h1>ยินดีต้อนรับสู่โปรไฟล์ของฉัน </h1>
-<p>สวัสดีครับ! ผมชื่อ เสฎฐวุฒิ <strong>เสฎฐวุฒิ (Setthawut)</strong></p>
-<p>ขณะนี้กำลังศึกษา/สนใจด้าน Computer Science & Engineering</p>
-<p>นี่คือเว็บไซต์แรกของผมที่โฮสต์บน GitHub Pages!</p>
-</div>
+
+    <div class="card">
+
+        <h1>ยินดีต้อนรับสู่โปรไฟล์ของฉัน 👋</h1>
+
+        <p>
+            สวัสดีครับ! ผมชื่อ
+            <strong>ณัทธ์ฐภัค บุญยามา (Natthaphak)</strong>
+        </p>
+
+        <p>
+            ขณะนี้กำลังศึกษาและสนใจด้าน
+            Computer Science & Engineering
+        </p>
+
+        <p>
+            นี่คือเว็บไซต์แรกของผมที่โฮสต์บน GitHub Pages!
+        </p>
+
+        <a href="portfolio.html" class="btn">
+            👉 ดูแฟ้มสะสมงานของผม
+        </a>
+
+    </div>
+
 </body>
 </html>
-<a href="portfolio.html" style="display:inline-block; background:#3498db; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; margin-top:15px;">👉 ดูแฟ้มสะสมงานของผม</a>
-
